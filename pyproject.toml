@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "professor-isaac"
+version = "0.1.0"
+description = "Professor I.S.A.A.C."
+authors = ["Lorenzo Asimov <lorenzo@asimov.academy>"]
+license = "Asimov Academy"
+readme = "README.md"
+package-mode = false 
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.14"
+whisper = "^1.1.10"
+faster-whisper = "^1.0.3"
+python-dotenv = "^1.0.1"
+speechrecognition = "^3.10.4"
+pyaudio = "^0.2.14"
+opencv-python-headless = "^4.10.0.84"
+pillow = "^10.4.0"
+pydub = "^0.25.1"
+openai = "^1.42.0"
+langchain-openai = "^0.1.22"
+langchain-community = "^0.2.12"
+
+keyboard = "^0.13.5"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
